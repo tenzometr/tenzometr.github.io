@@ -32,7 +32,7 @@ function drawWatch() {
             d % 5 == 0 ? "black" : "rgba(0, 0, 0, 0.5)", 1);
     }
     let date = new Date(),
-        hours = date.getHours() + 1,
+        hours = date.getHours(),
         minutes = date.getMinutes(),
         seconds = date.getSeconds();
     let secondsAngle = (seconds / 60) * (2 * Math.PI),
