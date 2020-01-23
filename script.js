@@ -31,6 +31,7 @@ function drawWatch() {
         drawLine(angle, 0.9, 1,
             d % 5 == 0 ? "black" : "rgba(0, 0, 0, 0.5)", 1);
     }
+    debugger;
     let date = new Date(),
         hours = date.getHours(),
         minutes = date.getMinutes(),
